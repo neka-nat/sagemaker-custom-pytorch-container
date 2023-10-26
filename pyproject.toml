@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sagemaker-custom-pytorch-container"
+version = "0.1.0"
+description = ""
+authors = ["nekanat <nekanat.stock@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.1.0"
+torchvision = "^0.16.0"
+sagemaker = "^2.196.0"
+boto3 = "^1.28.79"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
