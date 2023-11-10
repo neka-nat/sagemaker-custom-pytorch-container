@@ -3,7 +3,7 @@
 ## Installation
 
 ```sh
-poetry install
+poetry install --no-root
 ```
 
 ## Build & Deploy
